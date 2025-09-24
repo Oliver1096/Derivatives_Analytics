@@ -7,7 +7,7 @@ Volatility may be the most central notion in option and derivatives analytics. T
 
 * Historical volatility: this refers to the standard deviation of log returns of a financial time series; suppose we observe N (past) log returns $r_n , n \in{1,...,N}$ , with mean return
 
-<p align="center">$\mu = \frac{1}{N} \sum_{n=1}^{N} r_n$</p>
+<p align="center">$\hat\mu = \frac{1}{N} \sum_{n=1}^{N} r_n$</p>
 
 
 * 
