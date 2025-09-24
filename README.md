@@ -27,4 +27,6 @@ This volatilities all have squared counterparts wich are then named *variance*. 
 
 <p align="center">$\hat s = \frac{\frac{1}{N} \sum_{n=1}^{N} (r_n -\hat\mu)^3}{(\frac{1}{N}\sum_{n=1}^{N} (r_n - \hat\mu)^2)^\frac{3}{2}}$</p>
 
-* 
+* **Kurtosis:** this is a measure for the pickedness of a distribution and/or the size of the tails of the distribution("fat tails" are implied by a high kurtosis); the sample kurtosis is:
+
+$\hat k = \frac{\frac{1}{N} \sum_{n=1}^{N} (r_n -\hat\mu)^4}{(\frac{1}{N}\sum_{n=1}^{N} (r_n - \hat\mu)^2)^2} -3$
