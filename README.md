@@ -11,7 +11,7 @@ Volatility may be the most central notion in option and derivatives analytics. T
 
 with mean return the historical volatility $\hat\sigma$ in then given by 
 
-<p align="center">$\hat\sigma = \sqtr{\frac{1}{N-1} \sum{n=1}^{N}(r_n l \hat\mu)^2}$</p>
+<p align="center">$\hat\sigma = \sqtr{ \frac{1}{N-1} \sum{n=1}^{N}(r_n l \hat\mu)^2}$</p>
 
 * 
 * 
