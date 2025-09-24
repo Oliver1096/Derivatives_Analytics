@@ -9,7 +9,7 @@ Volatility may be the most central notion in option and derivatives analytics. T
 
 <p align="center">$\hat\mu = \frac{1}{N} \sum_{n=1}^{N} r_n$</p>
 
-    with mean return the historical volatility $\hat\sigma$ in then given by 
+with mean return the historical volatility $\hat\sigma$ in then given by 
 
 <p align="center">$\hat\sigma = \sqrt{ \frac{1}{N-1} \sum_{n=1}^{N}(r_n - \hat\mu)^2}$</p>
 
@@ -19,8 +19,7 @@ Volatility may be the most central notion in option and derivatives analytics. T
 
 * **Implied Volatility:** this is the volatility that, if put into the Blacj-Scholes-merton option pricing formula, gives the market observed price of an option; suppose we observe today a price of $C_{0}^{*}$ for an European call option; the implied volatility $\sigma^{imp}$ is the quantity that solves ceteris paribus the implicit equation.
 
-<p align="center">$C_{0}^{*} = C^{BSM} (S_0, K, T, r, \sigma^{imp})</p>
+<p align="center">$C_{0}^{*} = C^{BSM} (S_0, K, T, r, \sigma^{imp})$</p>
 
 This volatilities all have squared counterparts wich are then named *variance*. For example, in some financial models where volatility is stochastic, in constrast to the BMS assumption, the variance is modeled instead of the volatility.
-* 
-* 
+
