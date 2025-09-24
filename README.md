@@ -23,3 +23,8 @@ with mean return the historical volatility $\hat\sigma$ in then given by
 
 This volatilities all have squared counterparts wich are then named *variance*. For example, in some financial models where volatility is stochastic, in constrast to the BMS assumption, the variance is modeled instead of the volatility.
 
+* **Skewness:** this is a measure of the location of sample values relative to the mean ("more to the left or more to the right"), the sample skewness is:
+
+<p align="center">$\hat s = \frac{\frac{1}{N} \sum_{n=1}^{N} (r_n -\hat\mu)^3}{(\frac{1}{N}\sum_{n=1}^{N} (r_n - \hat\mu)^2)^\frac{3}{2}}$</p>
+
+* 
