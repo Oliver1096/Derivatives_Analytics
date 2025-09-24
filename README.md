@@ -17,7 +17,7 @@ with mean return the historical volatility $\hat\sigma$ in then given by
 
 <p align="center">$dS_t = rS_t dt + \sigma S_t dZ_t$</p>
 
-* **Implied Volatility:** this is the volatility that, if put into the Blacj-Scholes-merton option pricing formula, gives the market observed price of an option; suppose we observe today a price of $C_{0}^{*}$ for an European call option; the implied volatility $\sigma^{imp}$ is the quantity that solves ceteris paribus the implicit equation.
+* **Implied Volatility:** this is the volatility that, if put into the Black-Scholes-Merton option pricing formula, gives the market observed price of an option; suppose we observe today a price of $C_{0}^{*}$ for an European call option; the implied volatility $\sigma^{imp}$ is the quantity that solves ceteris paribus the implicit equation.
 
 <p align="center">$C_{0}^{*} = C^{BSM} (S_0, K, T, r, \sigma^{imp})$</p>
 
